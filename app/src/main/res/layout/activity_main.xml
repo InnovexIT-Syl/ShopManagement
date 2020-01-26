@@ -6,38 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/colorPrimary"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to InnovexIT"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="201dp"
-        android:layout_height="41dp"
-        android:paddingTop="10dp"
-        android:text="Edited By Hamim"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/toast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tap here" />
-    <Button
-        android:id="@+id/nothing"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="click here" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/main_pager"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>

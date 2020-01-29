@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.example.shopmanagement"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -30,4 +30,18 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    /*the following repositories and dependencies are added to design the login and signup by sukanto*/
+    repositories {
+
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases" }
+
+    }
+
+    dependencies {
+        implementation 'com.github.captain-miao:optroundcardview:1.0.0'
+    }
+    /*The following is to add circle view in login layout bu sukanto*/
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
 }

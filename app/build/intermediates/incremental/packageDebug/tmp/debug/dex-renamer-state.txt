@@ -1,4 +1,7 @@
-#Sun Jan 26 00:33:50 BDT 2020
-base.0=/home/delwar/StudioProjects/ShopManagement/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Wed Jan 29 23:17:01 BDT 2020
+base.0=/home/delwar/StudioProjects/ShopManagement/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/home/delwar/StudioProjects/ShopManagement/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

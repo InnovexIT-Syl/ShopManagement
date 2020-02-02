@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Back"
+                android:text="পূর্বের পেজে যান"
                 android:textColor="#191919"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -75,7 +75,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Create\naccount"
+                    android:text="নতুন একাউন্ট নিবিন্ধন করুন"
                     android:textStyle="bold"
                     android:textSize="25dp"
                     android:textColor="#191919"

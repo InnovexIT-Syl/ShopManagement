@@ -6,6 +6,19 @@
     android:layout_height="match_parent"
 
     tools:context=".activities.MainActivity">
+    //The following code is to implement customize toolbar by Sukanto
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/customize_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Toolbar"
+        app:titleMarginStart="40dp"
+        app:logo="@drawable/ic_more_vert_black_24dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
 <FrameLayout
     android:id="@+id/frame_container"
     android:layout_width="match_parent"

@@ -59,10 +59,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.title3) {
             Toast.makeText(getApplicationContext(), "Item 3 has been selected",
                     Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.title4) {
-            Toast.makeText(getApplicationContext(), "Item 4 has been selected",
-                    Toast.LENGTH_SHORT).show();
-        } else {
+        }else {
             Toast.makeText(getApplicationContext(), "Item 5 has been selected",
                     Toast.LENGTH_SHORT).show();
         }

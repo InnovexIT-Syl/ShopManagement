@@ -1,15 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buyinging_log"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buying Log"
+                    android:textSize="50dp"/>
+            </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logs Fragment"
-        android:textSize="40sp"
-        android:layout_centerInParent="true"
-        />
+        </androidx.cardview.widget.CardView>
 
-</RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/selling_log"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selling Log"
+                    android:textSize="50dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/expense_log"
+            android:foreground="?android:selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expense Log"
+                    android:textSize="50dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

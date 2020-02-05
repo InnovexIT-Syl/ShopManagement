@@ -14,18 +14,5 @@
         android:title="title3"
         android:id="@+id/title3"
         />
-    <item
-        android:title="title4"
-        android:id="@+id/title4"
-        android:icon="@drawable/ic_more_vert_black_24dp"
-        app:showAsAction="always"
-        />
-    <item
-        android:title="title5"
-        android:id="@+id/title5"
-        android:icon="@drawable/ic_more_vert_black_24dp"
-        app:showAsAction="always"
-        />
-
 
 </menu>

@@ -11,7 +11,7 @@
         android:id="@+id/customize_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:background="#c22d2d"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:title="Toolbar"
         app:titleMarginStart="40dp"
@@ -32,7 +32,7 @@
      android:layout_height="wrap_content"
      android:layout_alignParentBottom="true"
      app:menu="@menu/bottom_navigation"
-     android:background="?android:attr/windowBackground"
+     android:background="#c22d2d"
      />
 
 

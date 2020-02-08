@@ -746,6 +746,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1081,6 +1082,7 @@ drawable ic_more_vert_black_24dp
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable images
 drawable log_icon
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1174,7 +1176,7 @@ id blocking
 id bottom
 id bottom_navigation
 id buttonPanel
-id buyinging_log
+id buying_log
 id center
 id center_horizontal
 id center_vertical
@@ -1210,7 +1212,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id expense_log
 id fill
 id fill_horizontal
 id fill_vertical

@@ -6,51 +6,219 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+8-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+9-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:6:5-25:19
-12        android:allowBackup="true"
-12-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:7:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:8:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:9:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:10:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:11:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:12:9-40
-21        <activity android:name="com.example.shopmanagement.activities.SignupActivity" />
-21-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:14:9-62
-21-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:14:19-60
-22        <activity android:name="com.example.shopmanagement.activities.MainActivity" />
-22-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:15:9-60
-22-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:15:19-58
-23        <activity
-23-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:16:9-23:20
-24            android:name="com.example.shopmanagement.activities.LoginActivity"
-24-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:16:19-59
-25            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-25-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:17:13-72
-26            <intent-filter>
-26-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:19:17-69
-27-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:21:17-77
-29-->C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:23:5-79
+11-->[com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:23:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:24:5-67
+12-->[com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:24:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+13-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+14-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+16
+17    <application
+17-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:6:5-25:19
+18        android:allowBackup="true"
+18-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:8:9-43
+22        android:label="@string/app_name"
+22-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:9:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:11:9-35
+25        android:theme="@style/AppTheme" >
+25-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:12:9-40
+26        <activity android:name="com.example.shopmanagement.activities.SignupActivity" />
+26-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:14:9-62
+26-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:14:19-60
+27        <activity android:name="com.example.shopmanagement.activities.MainActivity" />
+27-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:15:9-60
+27-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:15:19-58
+28        <activity
+28-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:16:9-23:20
+29            android:name="com.example.shopmanagement.activities.LoginActivity"
+29-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:16:19-59
+30            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+30-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:17:13-72
+31            <intent-filter>
+31-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:18:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:19:17-69
+32-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:19:25-66
 33
-34</manifest>
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:21:17-77
+34-->/home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+38            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+38-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+39            android:excludeFromRecents="true"
+39-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+40            android:exported="true"
+40-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+41            android:launchMode="singleTask"
+41-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+42            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+42-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+44
+45        <service
+45-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+46            android:name="com.google.firebase.components.ComponentDiscoveryService"
+46-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+47            android:exported="false" >
+47-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+48            <meta-data
+48-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+49                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+49-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:15:13-17:85
+52                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+52-->[com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:16:17-111
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:17:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+55                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+55-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+58                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+58-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+60        </service>
+61
+62        <receiver
+62-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+63            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+63-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+64            android:enabled="true"
+64-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+65            android:exported="false" >
+65-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+66        </receiver>
+67        <receiver
+67-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+68            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+68-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+69            android:enabled="true"
+69-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+70            android:exported="true"
+70-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+71            android:permission="android.permission.INSTALL_PACKAGES" >
+71-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+72            <intent-filter>
+72-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+73                <action android:name="com.android.vending.INSTALL_REFERRER" />
+73-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+73-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+74            </intent-filter>
+75        </receiver>
+76
+77        <service
+77-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+78            android:name="com.google.android.gms.measurement.AppMeasurementService"
+78-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+79            android:enabled="true"
+79-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+80            android:exported="false" />
+80-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+81        <service
+81-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+82            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+82-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+83            android:enabled="true"
+83-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+84            android:exported="false"
+84-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+85            android:permission="android.permission.BIND_JOB_SERVICE" />
+85-->[com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+86
+87        <receiver
+87-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+88            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+88-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+89            android:exported="true"
+89-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+90            android:permission="com.google.android.c2dm.permission.SEND" >
+90-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+91            <intent-filter>
+91-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+92                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+92-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+92-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+93            </intent-filter>
+94        </receiver>
+95        <!--
+96             FirebaseInstanceIdService performs security checks at runtime,
+97             no need for explicit permissions despite exported="true"
+98        -->
+99        <service
+99-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+100            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+100-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+101            android:exported="true" >
+101-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+102            <intent-filter android:priority="-500" >
+102-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+102-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+103                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+103-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+103-->[com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+104            </intent-filter>
+105        </service>
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+114            android:authorities="com.example.shopmanagement.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+121    </application>
+122
+123</manifest>

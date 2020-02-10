@@ -1,201 +1,505 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.captain-miao:optroundcardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\aa1dc5b8dfb4e53881e34683d0151261\optroundcardview-1.0.0\AndroidManifest.xml:2:1-14:12
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fa83cb0bd406a3852b604bdf148e769\circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ddf6a25e6e3e5e2af441269b48288beb\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ceb81553a8d4d1147c847656f2ca2121\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\dbbcc99072b5616db9e0106b8ed65934\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\d1ca7cd3905794bed09cb92934ccd6c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4276267baf989d651cf25177c247ad49\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ffa46f3d6480310395b7b525cf59ccde\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\64ed055c454b36433d45a77285ee24d6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.material:material:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/42dfa75dd97f65b6f13ab377026b4c61/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/53af1f37d65227eb5bcf361cc28c52ea/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/08acf756127cae99092eba05c2a7248f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3586cf9e5d37a5be2bbe710dbdaeb36f/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/3d5a79532769b1d80ee2ba340e64d62f/firebase-core-16.0.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:2:1-21:12
+MERGED from [com.github.captain-miao:optroundcardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/728f4bf7acef88bd7e752717a6a2f3de/optroundcardview-1.0.0/AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5d9ad232d16e9ab49d6983db636c75d6/circleimageview-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/0d591564b3e6b778da35397d9aa9ac79/play-services-flags-16.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/63692cb1ff48505894b7a2762437b617/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7d45e4f95803e270e1573fd1854a261/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/db758a635ffd9fbe40f694b03dde945e/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/fdc61c435ed4c8c021337b957d3a2bab/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/318e04956a285e6ac0c77fe3b7358531/firebase-database-collection-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/2167bd70b38507ba7ef411876e19b783/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/bece9e146fce9f084b8d85c3a328ab9d/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/be208c684e809a245e0f415c7bf6bd71/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/262cee874a29045d29703cd5d56127c0/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/cb28eb37786c46aa315fbb0bc9e79ad7/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ca9d99d524b8448aa91b8144bcf3c6f5/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/40f897c4b6c4b24c09da91774af9593c/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b003c351741550b194cdb6cf800bc712/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/72fd5c95edc423dc1af619ee702ed70a/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/433027588162b4c827dc66cf8d0cf604/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/889e729b49a66a0d0a285e9ed3ba6360/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e7dbd70914629c845196c3655d3bfc05/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/48004d795f63c95c3eeb2f1e00460759/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/f1af6724f4620915405752d62143122a/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/06482c8496c7881eda29e8e3fdd8540d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ad597f9db74210acc8d949d4ef87c8a9/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/60b8cdada680474c86c3f823c8ae649a/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/60e2d16f38193533dcd0a1ed2d4c5f0b/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5da003ad04bc8fdad9921e2eb26b2991/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/1a15599b2b3acac526499af7f12be30d/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ed4b00badddeff4748fb97b252a63a9b/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/886df16c747a87ca7b380bdbaa998077/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/3fca54826ea9abcd3906e8e5dfff959c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b1e5b3e7ff90977513d02b308ca82682/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/fa61d2590733005073428aac79eb5436/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5e16f5c1b50d3925eacca3aafb488976/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/9334aced248444506050b27395495422/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/f15566ac99d93f31d0227f09e1f27c57/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/2c7550b326037ca9da2ff8634b91d68c/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/a86cec402db0cf6f732d23e6f9d53cb5/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/7c12716567d2ccb33355e656712d39a4/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/653b774f06aa8ef4f66c469d210d03cf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/bc54237dd241608a60f3e5f1afb0cd23/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/71b619f01309f419ed6b9a79fb62df67/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/998dca7bb11d60a10df3df6d3af24d8f/protolite-well-known-types-16.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3f6f29468baf90391212c50cccd9eed2/play-services-measurement-base-16.0.3/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:4:5-41
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:6:5-25:19
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.github.captain-miao:optroundcardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\aa1dc5b8dfb4e53881e34683d0151261\optroundcardview-1.0.0\AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.captain-miao:optroundcardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\aa1dc5b8dfb4e53881e34683d0151261\optroundcardview-1.0.0\AndroidManifest.xml:11:5-12:19
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fa83cb0bd406a3852b604bdf148e769\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fa83cb0bd406a3852b604bdf148e769\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [com.google.android.material:material:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/42dfa75dd97f65b6f13ab377026b4c61/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/42dfa75dd97f65b6f13ab377026b4c61/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3586cf9e5d37a5be2bbe710dbdaeb36f/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3586cf9e5d37a5be2bbe710dbdaeb36f/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/3d5a79532769b1d80ee2ba340e64d62f/firebase-core-16.0.4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/3d5a79532769b1d80ee2ba340e64d62f/firebase-core-16.0.4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:13:5-19:19
+MERGED from [com.github.captain-miao:optroundcardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/728f4bf7acef88bd7e752717a6a2f3de/optroundcardview-1.0.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.captain-miao:optroundcardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/728f4bf7acef88bd7e752717a6a2f3de/optroundcardview-1.0.0/AndroidManifest.xml:11:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5d9ad232d16e9ab49d6983db636c75d6/circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5d9ad232d16e9ab49d6983db636c75d6/circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/63692cb1ff48505894b7a2762437b617/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/63692cb1ff48505894b7a2762437b617/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7d45e4f95803e270e1573fd1854a261/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7d45e4f95803e270e1573fd1854a261/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/db758a635ffd9fbe40f694b03dde945e/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/db758a635ffd9fbe40f694b03dde945e/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/fdc61c435ed4c8c021337b957d3a2bab/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/fdc61c435ed4c8c021337b957d3a2bab/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/2167bd70b38507ba7ef411876e19b783/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/2167bd70b38507ba7ef411876e19b783/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/bece9e146fce9f084b8d85c3a328ab9d/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/bece9e146fce9f084b8d85c3a328ab9d/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/be208c684e809a245e0f415c7bf6bd71/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/be208c684e809a245e0f415c7bf6bd71/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b1e5b3e7ff90977513d02b308ca82682/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b1e5b3e7ff90977513d02b308ca82682/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3f6f29468baf90391212c50cccd9eed2/play-services-measurement-base-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3f6f29468baf90391212c50cccd9eed2/play-services-measurement-base-16.0.3/AndroidManifest.xml:7:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:9:9-41
 	tools:ignore
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:13:9-48
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:13:9-48
 	android:roundIcon
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:12:9-40
 activity#com.example.shopmanagement.activities.SignupActivity
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:14:9-62
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:14:9-62
 	android:name
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:14:19-60
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:14:19-60
 activity#com.example.shopmanagement.activities.MainActivity
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:15:9-60
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:15:9-60
 	android:name
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:15:19-58
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:15:19-58
 activity#com.example.shopmanagement.activities.LoginActivity
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:16:9-23:20
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:theme
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:17:13-72
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:17:13-72
 	android:name
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:16:19-59
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:16:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.captain-miao:optroundcardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\aa1dc5b8dfb4e53881e34683d0151261\optroundcardview-1.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.captain-miao:optroundcardview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\aa1dc5b8dfb4e53881e34683d0151261\optroundcardview-1.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fa83cb0bd406a3852b604bdf148e769\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4fa83cb0bd406a3852b604bdf148e769\circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ddf6a25e6e3e5e2af441269b48288beb\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ddf6a25e6e3e5e2af441269b48288beb\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ceb81553a8d4d1147c847656f2ca2121\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ceb81553a8d4d1147c847656f2ca2121\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\dbbcc99072b5616db9e0106b8ed65934\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\dbbcc99072b5616db9e0106b8ed65934\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\d1ca7cd3905794bed09cb92934ccd6c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\d1ca7cd3905794bed09cb92934ccd6c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4276267baf989d651cf25177c247ad49\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\4276267baf989d651cf25177c247ad49\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ffa46f3d6480310395b7b525cf59ccde\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\ffa46f3d6480310395b7b525cf59ccde\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\64ed055c454b36433d45a77285ee24d6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\64ed055c454b36433d45a77285ee24d6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Debasish\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/42dfa75dd97f65b6f13ab377026b4c61/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/42dfa75dd97f65b6f13ab377026b4c61/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/53af1f37d65227eb5bcf361cc28c52ea/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/53af1f37d65227eb5bcf361cc28c52ea/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/08acf756127cae99092eba05c2a7248f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/08acf756127cae99092eba05c2a7248f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3586cf9e5d37a5be2bbe710dbdaeb36f/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3586cf9e5d37a5be2bbe710dbdaeb36f/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/3d5a79532769b1d80ee2ba340e64d62f/firebase-core-16.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/3d5a79532769b1d80ee2ba340e64d62f/firebase-core-16.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.captain-miao:optroundcardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/728f4bf7acef88bd7e752717a6a2f3de/optroundcardview-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.captain-miao:optroundcardview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/728f4bf7acef88bd7e752717a6a2f3de/optroundcardview-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5d9ad232d16e9ab49d6983db636c75d6/circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5d9ad232d16e9ab49d6983db636c75d6/circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/0d591564b3e6b778da35397d9aa9ac79/play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/0d591564b3e6b778da35397d9aa9ac79/play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/63692cb1ff48505894b7a2762437b617/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/63692cb1ff48505894b7a2762437b617/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7d45e4f95803e270e1573fd1854a261/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7d45e4f95803e270e1573fd1854a261/jetified-play-services-measurement-api-16.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/db758a635ffd9fbe40f694b03dde945e/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/db758a635ffd9fbe40f694b03dde945e/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/fdc61c435ed4c8c021337b957d3a2bab/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/fdc61c435ed4c8c021337b957d3a2bab/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/318e04956a285e6ac0c77fe3b7358531/firebase-database-collection-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/318e04956a285e6ac0c77fe3b7358531/firebase-database-collection-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/2167bd70b38507ba7ef411876e19b783/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/2167bd70b38507ba7ef411876e19b783/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/bece9e146fce9f084b8d85c3a328ab9d/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/bece9e146fce9f084b8d85c3a328ab9d/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/be208c684e809a245e0f415c7bf6bd71/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/be208c684e809a245e0f415c7bf6bd71/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/262cee874a29045d29703cd5d56127c0/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/262cee874a29045d29703cd5d56127c0/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/cb28eb37786c46aa315fbb0bc9e79ad7/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/cb28eb37786c46aa315fbb0bc9e79ad7/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ca9d99d524b8448aa91b8144bcf3c6f5/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ca9d99d524b8448aa91b8144bcf3c6f5/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/40f897c4b6c4b24c09da91774af9593c/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/40f897c4b6c4b24c09da91774af9593c/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b003c351741550b194cdb6cf800bc712/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b003c351741550b194cdb6cf800bc712/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/72fd5c95edc423dc1af619ee702ed70a/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/72fd5c95edc423dc1af619ee702ed70a/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/433027588162b4c827dc66cf8d0cf604/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/433027588162b4c827dc66cf8d0cf604/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/889e729b49a66a0d0a285e9ed3ba6360/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/889e729b49a66a0d0a285e9ed3ba6360/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e7dbd70914629c845196c3655d3bfc05/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e7dbd70914629c845196c3655d3bfc05/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/48004d795f63c95c3eeb2f1e00460759/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/48004d795f63c95c3eeb2f1e00460759/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/f1af6724f4620915405752d62143122a/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/f1af6724f4620915405752d62143122a/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/06482c8496c7881eda29e8e3fdd8540d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/06482c8496c7881eda29e8e3fdd8540d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ad597f9db74210acc8d949d4ef87c8a9/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ad597f9db74210acc8d949d4ef87c8a9/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/60b8cdada680474c86c3f823c8ae649a/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/60b8cdada680474c86c3f823c8ae649a/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/60e2d16f38193533dcd0a1ed2d4c5f0b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/60e2d16f38193533dcd0a1ed2d4c5f0b/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5da003ad04bc8fdad9921e2eb26b2991/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5da003ad04bc8fdad9921e2eb26b2991/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/1a15599b2b3acac526499af7f12be30d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/1a15599b2b3acac526499af7f12be30d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ed4b00badddeff4748fb97b252a63a9b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/ed4b00badddeff4748fb97b252a63a9b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/886df16c747a87ca7b380bdbaa998077/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/886df16c747a87ca7b380bdbaa998077/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/e91594602c73eba9f0c6fb1745d43dba/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/3fca54826ea9abcd3906e8e5dfff959c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/3fca54826ea9abcd3906e8e5dfff959c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b1e5b3e7ff90977513d02b308ca82682/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/b1e5b3e7ff90977513d02b308ca82682/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/fa61d2590733005073428aac79eb5436/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/fa61d2590733005073428aac79eb5436/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5e16f5c1b50d3925eacca3aafb488976/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/5e16f5c1b50d3925eacca3aafb488976/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/9334aced248444506050b27395495422/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/9334aced248444506050b27395495422/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/f15566ac99d93f31d0227f09e1f27c57/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/f15566ac99d93f31d0227f09e1f27c57/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/2c7550b326037ca9da2ff8634b91d68c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/2c7550b326037ca9da2ff8634b91d68c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/a86cec402db0cf6f732d23e6f9d53cb5/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/a86cec402db0cf6f732d23e6f9d53cb5/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/7c12716567d2ccb33355e656712d39a4/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/7c12716567d2ccb33355e656712d39a4/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/653b774f06aa8ef4f66c469d210d03cf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/653b774f06aa8ef4f66c469d210d03cf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/bc54237dd241608a60f3e5f1afb0cd23/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/bc54237dd241608a60f3e5f1afb0cd23/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/71b619f01309f419ed6b9a79fb62df67/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/71b619f01309f419ed6b9a79fb62df67/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/998dca7bb11d60a10df3df6d3af24d8f/protolite-well-known-types-16.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/998dca7bb11d60a10df3df6d3af24d8f/protolite-well-known-types-16.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3f6f29468baf90391212c50cccd9eed2/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/3f6f29468baf90391212c50cccd9eed2/play-services-measurement-base-16.0.3/AndroidManifest.xml:5:5-44
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Debasish\AndroidStudioProjects\ShopManagement\app\src\main\AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		ADDED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+		INJECTED from /home/delwar/StudioProjects/ShopManagement/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/delwar/.gradle/caches/transforms-2/files-2.1/305b7e79a0e60a3abb39f2dcdbea63a2/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/23bfb1a448e88214849ee113d145b775/jetified-firebase-storage-16.0.4/AndroidManifest.xml:24:22-64
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/4344ded9b5c5e2fa85ebe1da1df7f4e2/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:16:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/c7eb2dd28af63a637d0e31edc327f509/jetified-firebase-measurement-connector-impl-17.0.2/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/delwar/.gradle/caches/transforms-2/files-2.1/48bde01290ea0d86df776d3757c2dc97/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/delwar/.gradle/caches/transforms-2/files-2.1/8c07d553409eb2292a5efd03d9826436/jetified-firebase-analytics-16.0.4/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/9def60244e531d239b8fb58723cf279c/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/delwar/.gradle/caches/transforms-2/files-2.1/89cf6ed3f4ac5edd599e960556559ee4/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/delwar/.gradle/caches/transforms-2/files-2.1/7a736cabf373cb246e5912e2ac6205d5/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/delwar/.gradle/caches/transforms-2/files-2.1/138951d8dd78f98f49238cf2b2c63d4d/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
